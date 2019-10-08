@@ -1,0 +1,30 @@
+body{
+    margin:0;
+}
+#contacts{
+    background: #283655;
+    color: whitesmoke;
+    height: 45vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#contacts div{
+    display: flex;
+    align-items: center;
+}
+#contacts div img{
+    height: 5vh;
+}
+#contacts div a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 2vh;
+}
+#m-l{
+margin-left: 10vw;
+}
+#m-r{
+margin-right: 10vw;
+}
