@@ -110,3 +110,40 @@ nav{
     color: whitesmoke;
     text-align: center;
 }
+
+
+#about{
+    color:#283655;
+}
+#a-title{
+    margin-left:20vh;
+}
+.image-name{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.image-name img{
+    width: 20vw;
+}
+.a-text{
+    display: flex;
+    justify-content: space-around;
+}
+.a-info{
+    color:whitesmoke;
+    background: #283655;
+    width: 23vw;
+    height: 45vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#margin-l{
+    margin-left: 8vw;
+    
+}
+#margin-r{
+    margin-right:8vw;
+}
