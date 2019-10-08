@@ -62,3 +62,51 @@ nav{
 .navbar li a:hover {
     background-color: #1e1f26;
   }
+
+  
+.portfolio{
+    color : #283655;
+}
+.portfolio #p-title{
+    margin-left: 20vh;
+}
+.project-1{
+    background: #283655;
+    color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+.project-2{
+    color: #283655;
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.port-text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#zelda{
+    height: 45vh;
+}
+#amazon{
+    height: 45vh;
+}
+#youtube{
+    height: 45vh;
+}
+
+.port-text a{
+
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    background: #1e1f26;
+    color: whitesmoke;
+    text-align: center;
+}
