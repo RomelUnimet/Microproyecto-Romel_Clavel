@@ -1,0 +1,73 @@
+body{
+    margin :0;
+}
+
+#hab-dest{
+    color: #283655;
+}
+#hab-dest h1{
+    margin-left: 10vw;
+}
+#score{
+    display: flex;
+    display: flex;
+    justify-content: space-between
+}
+#score img{
+    margin-top: 2vh;
+
+    height: 20vh;
+    
+    
+}
+.bar{
+    background: grey;
+    height: 40vh;
+    width: 5vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.bar-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#java{
+    background: rgb(214, 32, 32);
+    height: 32vh;
+    width: 5vh;
+    border-radius: 20px;
+}
+#css{
+    background: rgb(56, 136, 211);
+    height: 27vh;
+    width: 5vh;
+    border-radius: 20px;
+}
+#js{
+    background: rgb(219, 206, 24);
+    height: 15vh;
+    width: 5vh;
+    border-radius: 20px;
+}
+#html{
+    background: rgb(224, 157, 12);
+    height: 30vh;
+    width: 5vh;
+    border-radius: 20px;
+}
+#git{
+    background: rgb(41, 40, 40);
+    height: 5vh;
+    width: 5vh;
+    border-radius: 20px;
+}
+#m-l{
+    margin-left: 10vw;
+}
+#m-r{
+    margin-right: 10vw;
+}
