@@ -1,7 +1,7 @@
 body{
     margin: 0px;
 }
-.hero{
+#hero{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,7 +36,7 @@ body{
 nav{
     background: #283655;
 }
-.navbar{
+#navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -45,20 +45,228 @@ nav{
     
     
 }
-.navbar li{
+#navbar li{
     display: inline-block;
     margin-left: 4vw;
 
     
     
 }
-.navbar li a{
+#navbar li a{
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     color: whitesmoke;
 }
-.navbar li a:hover {
+#navbar li a:hover {
     background-color: #1e1f26;
   }
+
+  /*portafolio */ 
+
+#portfolio{
+    color : #283655;
+}
+#portfolio #p-title{
+    margin-left: 20vh;
+}
+.project-1{
+    background: #283655;
+    color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+.project-2{
+    color: #283655;
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.port-text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#zelda{
+    height: 45vh;
+}
+#amazon{
+    height: 45vh;
+}
+#youtube{
+    height: 45vh;
+}
+
+.port-text a{
+
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    background: #1e1f26;
+    color: whitesmoke;
+    text-align: center;
+}
+.port-text a:hover{
+    background: #4970c4;
+}
+
+
+/* acerca de mi*/ 
+
+#about{
+    color:#283655;
+}
+#a-title{
+    margin-left:20vh;
+}
+.image-name{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.image-name img{
+    width: 20vw;
+    border: 15px solid #283655;
+}
+
+.a-text{
+    display: flex;
+    justify-content: space-around;
+}
+.a-info{
+    color:whitesmoke;
+    background: #283655;
+    width: 23vw;
+    height: 45vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#margin-l{
+    margin-left: 8vw;
+    
+}
+#margin-r{
+    margin-right:8vw;
+}
+
+/* habilidades y destrezas*/ 
+#hab-dest{
+    color: #283655;
+}
+#hab-dest h1{
+    margin-left: 10vw;
+}
+#score{
+    display: flex;
+    display: flex;
+    justify-content: space-between
+}
+#score img{
+    margin-top: 2vh;
+
+    height: 20vh;
+    
+    
+}
+.bar{
+    background: grey;
+    height: 40vh;
+    width: 5vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.bar-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#java{
+    background: rgb(214, 32, 32);
+    height: 32vh;
+    width: 5vh;
+    border-radius: 20px;
+}
+#css{
+    background: rgb(56, 136, 211);
+    height: 27vh;
+    width: 5vh;
+    border-radius: 20px;
+}
+#js{
+    background: rgb(219, 206, 24);
+    height: 15vh;
+    width: 5vh;
+    border-radius: 20px;
+}
+#html{
+    background: rgb(224, 157, 12);
+    height: 30vh;
+    width: 5vh;
+    border-radius: 20px;
+}
+#git{
+    background: rgb(41, 40, 40);
+    height: 5vh;
+    width: 5vh;
+    border-radius: 20px;
+}
+#m-l{
+    margin-left: 10vw;
+}
+#m-r{
+    margin-right: 10vw;
+}
+
+/*contacto */ 
+#contacts{
+    background: #283655;
+    color: whitesmoke;
+    height: 45vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#contacts div{
+    display: flex;
+    align-items: center;
+}
+#contacts div img{
+    height: 5vh;
+}
+#contacts div a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 2vh;
+}
+#m-l{
+margin-left: 10vw;
+}
+#m-r{
+margin-right: 10vw;
+}
+
+#scroll-up{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: whitesmoke;
+    background: #1e1f26;
+    float: right;
+    margin-right: 7vh;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 85vh;
+}
+
